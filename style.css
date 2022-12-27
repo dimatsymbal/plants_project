@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  height: 59px;
+  background-color: #0c4b35;
+}
+header .upper_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .upper_nav .container_upper {
+  width: 1418px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+header .upper_nav .container_upper .left {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .upper_nav .container_upper .left a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #ffffff;
+}
+header .upper_nav .container_upper .left a .mail_send_icon {
+  width: 25px;
+  height: 17px;
+}
+header .upper_nav .container_upper .nav-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #ffffff;
+}
+header .upper_nav .container_upper .dropdown-menu {
+  border-radius: 0px;
+}
+header .upper_nav .container_upper ul.dropdown-menu.show {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.main_nav {
+  display: flex;
+  justify-content: center;
+  height: 85px;
+  border-bottom: #212529;
+  margin-top: 10px;
+}
+.main_nav .container_main_nav {
+  width: 1418px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_nav .container_main_nav .left_main_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_nav .container_main_nav .left_main_nav .plants_logo_in_main_nav {
+  width: 120px;
+}
+.main_nav .container_main_nav .center_main_nav {
+  margin-left: 380px;
+}
+.main_nav .container_main_nav .center_main_nav .nav-link {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #212529;
+  padding-left: 30px;
+}
+.main_nav .container_main_nav .right_main_nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.main_nav .container_main_nav .right_main_nav .call_us_btn {
+  width: 170px;
+  height: 50px;
+  background-color: #00730c;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 35px;
+}
+.main_nav .container_main_nav .right_main_nav .btn_tel_icon_in_main_nav {
+  width: 29px;
+  margin-right: 10px;
+}/*# sourceMappingURL=style.css.map */
+
+
+
+
+/* ____________________________mobile__adaptive_Upper_nav_____________________________________ */
+
+
+@media(max-width: 375px){
+  header {
+    width: 375px;
+    height: 59px;
+    background-color: #0c4b35;
+    position: relative;
+  }
+
+  div.container_upper{
+    margin: 0px;
+    padding: 0px;
+    height: 59px;
+  }
+
+
+  html{
+    width: 100%;
+  }
+
+  .link_in_nav{
+    visibility: hidden;
+  }
+
+.mail_send_icon{
+  visibility: visible;
+  width: 25px;
+  height: 17px;
+  position: absolute;
+  top: 22px;
+  left: 20px;
+}
+
+.tel_send_icon{
+  visibility: visible;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 17px;
+  left: 70px;
+}
+
+.adress_send_icon{
+  visibility: visible;
+  width: 17px;
+  height: 23px;
+  position: absolute;
+  top: 18px;
+  left: 125px;
+}
+
+.nav-link{
+  margin-right: 160px;
+  margin-bottom: 13px;
+}
+
+}
+
+/* ____________________________mobile__adaptive_main_nav_____________________________________ */
+
+
+@media(max-width: 375px){
+  .main_nav {
+    width: 375px;
+    height: 70px;
+    position: relative;
+  }
+
+
+  .plants_logo_in_main_nav{
+    position: absolute;
+    width: 40px;
+    left: 10px;
+  }
+
+
+  .btn_tel_icon_in_main_nav{
+    background-image: url(./photos/btn_tel_icon_in_main_nav.jpg);
+  }
+
+  button.call_us_btn{
+    content-visibility: hidden;
+    padding: 0px 0px;
+    max-width: 20px;
+    max-height: 50px;
+    position: absolute;
+
+    right: 105px;
+    top: 10px;
+  }
+
+
+
+  .navbar-toggler{
+    position: absolute;
+
+    right: 30px;
+
+  }
+}

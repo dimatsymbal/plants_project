@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  height: 59px;
+  background-color: #0c4b35;
+
+  .upper_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container_upper {
+      width: 1418px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 8px;
+
+      .left {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+          text-decoration: none;
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 25px;
+          color: #ffffff;
+
+          .mail_send_icon {
+            width: 25px;
+            height: 17px;
+          }
+        }
+      }
+
+      .nav-link {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        color: #ffffff;
+      }
+
+      .dropdown-menu {
+        border-radius: 0px;
+      }
+
+      ul.dropdown-menu.show {
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+    }
+  }
+}
+
+// ______________________________________________________________________________________________________
+
+.main_nav {
+  display: flex;
+  justify-content: center;
+  height: 85px;
+  border-bottom: #212529;
+  margin-top: 10px;
+
+  .container_main_nav {
+    width: 1418px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left_main_nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .plants_logo_in_main_nav {
+        width: 120px;
+      }
+    }
+
+    .center_main_nav {
+      margin-left: 380px;
+
+      .nav-link {
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: capitalize;
+        color: #212529;
+
+        padding-left: 30px;
+      }
+    }
+
+    .right_main_nav {
+      display: flex;
+      justify-content: flex-end;
+
+      .call_us_btn {
+        width: 170px;
+        height: 50px;
+        background-color: #00730c;
+        border: 0;
+        border-radius: 5px;
+        color: white;
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 35px;
+      }
+
+      .btn_tel_icon_in_main_nav{
+        width: 29px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
