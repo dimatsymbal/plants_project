@@ -1,0 +1,6 @@
+          <div class="second_part_in_block__3">
+            <div class="container_in_second_part_block_3">
+              <img class="picture_in_block__3" src="./photos/picture_in_block__3.png" alt="picture_in_block__3">
+              <img class="small_picture_in_block__3" src="./photos/small_picture_in_block__3.png" alt="small_picture_in_block__3"> 
+            </div>    
+          </div>
