@@ -327,9 +327,9 @@ header .upper_nav .container_upper ul.dropdown-menu.show {
 }
 
 /* _________________________________adaptive header___________________________________________ */
-@media (max-width: 380px) {
+@media (max-width: 391px) {
   header {
-    width: 380px;
+    width: 390px;
     height: 130px;
   }
   header .container_upper {
@@ -376,7 +376,7 @@ header .upper_nav .container_upper ul.dropdown-menu.show {
     justify-content: center;
     align-items: center;
     padding: 15px 0px;
-    width: 380px;
+    width: 390px;
     height: 70px;
     background: #ffffff;
     box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.15);
@@ -414,11 +414,11 @@ header .upper_nav .container_upper ul.dropdown-menu.show {
   }
 }
 /* _________________________________adaptive block__2___________________________________________ */
-@media (max-width: 380px) {
+@media (max-width: 391px) {
   .block__2 {
     position: relative;
     top: -30px;
-    width: 380px;
+    width: 390px;
     height: 719px;
     left: 0px;
     top: 0px;
@@ -430,7 +430,7 @@ header .upper_nav .container_upper ul.dropdown-menu.show {
     right: 0%;
     top: -0.07%;
     bottom: 0.07%;
-    width: 380px;
+    width: 390px;
     height: 240px;
     background: #c4c4c4;
   }
@@ -446,7 +446,7 @@ header .upper_nav .container_upper ul.dropdown-menu.show {
   }
   .block__2 .container_block__2 {
     position: absolute;
-    width: 380px;
+    width: 390px;
   }
   .block__2 .container_block__2 .sub_upper_title {
     position: absolute;
@@ -709,10 +709,10 @@ header .upper_nav .container_upper ul.dropdown-menu.show {
 }
 
 /* _________________________________adaptive block__3___________________________________________ */
-@media (max-width: 380px) {
+@media (max-width: 391px) {
   .block__3 {
     position: relative;
-    width: 380px;
+    width: 390px;
     height: 1361px;
     left: 0px;
     top: -50px;
@@ -1269,10 +1269,10 @@ header .upper_nav .container_upper ul.dropdown-menu.show {
   color: #ffffff;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 391px) {
   .block__4 {
     position: relative;
-    width: 380px;
+    width: 390px;
     height: 1281px;
     left: 0px;
     top: -40px;
