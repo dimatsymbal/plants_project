@@ -128,6 +128,7 @@ header .upper_nav .container_upper ul.dropdown-menu.show {
   width: 1418px;
   position: relative;
   margin: auto;
+  z-index: 2;
 }
 .block__2 .container_block__2 .sub_upper_title {
   position: absolute;
@@ -318,6 +319,7 @@ header .upper_nav .container_upper ul.dropdown-menu.show {
   position: absolute;
   bottom: 0px;
   right: 0px;
+  z-index: 1;
 }
 .block__2 .small_picture_of_black_2 {
   position: absolute;
@@ -1658,5 +1660,327 @@ header .upper_nav .container_upper ul.dropdown-menu.show {
     background: #00730c;
     border-radius: 5px;
     font-size: 16px;
+  }
+}
+.block__6 {
+  display: block;
+  position: relative;
+  height: 1095px;
+}
+.block__6 .container_block__6 {
+  width: 1418px;
+  position: relative;
+  z-index: 2;
+  margin: auto;
+}
+.block__6 .container_block__6 .title_in_block__6 {
+  position: absolute;
+  top: 96px;
+  left: 524px;
+  width: 361px;
+  height: 61px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 61px;
+  color: #212529;
+}
+.block__6 .container_block__6 .title_in_block__6 span {
+  color: #00730c;
+}
+.block__6 .container_block__6 .paragraph_in_block__6 {
+  position: absolute;
+  top: 177px;
+  left: 137px;
+  width: 1136px;
+  height: 60px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #676767;
+}
+.block__6 .container_block__6 .card6 {
+  position: relative;
+  gap: 10px;
+  width: 330px;
+  height: 408px;
+  background: #ffffff;
+  box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
+  border-radius: 10px;
+}
+.block__6 .container_block__6 .card6 .card6_background {
+  position: absolute;
+  top: 113px;
+  right: 44px;
+  height: 162px;
+  opacity: 1;
+  z-index: 1;
+}
+.block__6 .container_block__6 .card6 .card6_image_in_block__6 {
+  position: absolute;
+  left: 29px;
+  top: 55px;
+  height: 80px;
+  z-index: 2;
+}
+.block__6 .container_block__6 .card6 .card6_number_image_in_block__6 {
+  position: absolute;
+  right: 31px;
+  top: 55px;
+  height: 70px;
+  z-index: 2;
+}
+.block__6 .container_block__6 .card6 .title_in_card6 {
+  position: absolute;
+  top: 165px;
+  left: 29px;
+  width: 271px;
+  height: 33px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: capitalize;
+  color: #212529;
+  z-index: 2;
+}
+.block__6 .container_block__6 .card6 .paragraph_in_card6 {
+  position: absolute;
+  top: 218px;
+  left: 29px;
+  width: 270px;
+  height: 120px;
+  z-index: 2;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #676767;
+}
+.block__6 .container_block__6 #card1_block__6 {
+  position: absolute;
+  top: 287px;
+  left: 0px;
+}
+.block__6 .container_block__6 #card2_block__6 {
+  position: absolute;
+  top: 287px;
+  left: 360px;
+}
+.block__6 .container_block__6 #card3_block__6 {
+  position: absolute;
+  top: 287px;
+  right: 360px;
+}
+.block__6 .container_block__6 #card4_block__6 {
+  position: absolute;
+  top: 287px;
+  right: 0px;
+}
+.block__6 .container_block__6 .block_after_cards_in_block__6 {
+  position: absolute;
+  top: 795px;
+  left: 0px;
+  width: 100%;
+  height: 247px;
+  background-image: url(./photos/background_in_after_block.png);
+  background-repeat: no-repeat;
+}
+.block__6 .container_block__6 #block_after_cards_in_block__6_id {
+  position: relative;
+}
+.block__6 .container_block__6 #block_after_cards_in_block__6_id .text_in_after_block {
+  position: absolute;
+  left: 647px;
+  top: 78.5px;
+  width: 448px;
+  height: 90px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 45px;
+  color: #ffffff;
+}
+.block__6 .container_block__6 #block_after_cards_in_block__6_id .call_us_btn {
+  position: absolute;
+  top: 98.5px;
+  right: 60px;
+  width: 170px;
+  height: 50px;
+  background: #ffffff;
+  border: 0;
+  border-radius: 5px;
+  color: #00730c;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 35px;
+}
+.block__6 .container_block__6 #block_after_cards_in_block__6_id .btn_tel_icon_in_main_nav {
+  width: 29px;
+  margin-right: 10px;
+}
+
+@media (max-width: 391px) {
+  .block__6 {
+    position: relative;
+    width: 390px;
+    height: 1100px;
+  }
+  .block__6 .container_block__6 {
+    position: relative;
+    z-index: 2;
+    width: 390px;
+    height: 1100px;
+  }
+  .block__6 .container_block__6 .title_in_block__6 {
+    position: absolute;
+    top: 50px;
+    left: 77.5px;
+    width: 220px;
+    height: 38px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .block__6 .container_block__6 .paragraph_in_block__6 {
+    position: absolute;
+    top: 103px;
+    left: 15px;
+    width: 345px;
+    height: 110px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .block__6 .container_block__6 #card1_block__6 {
+    position: absolute;
+    top: 243px;
+    left: 22.5px;
+  }
+  .block__6 .container_block__6 #card2_block__6 {
+    position: absolute;
+    top: 471px;
+    left: 22.5px;
+  }
+  .block__6 .container_block__6 #card3_block__6 {
+    position: absolute;
+    top: 699px;
+    left: 22.5px;
+  }
+  .block__6 .container_block__6 #card4_block__6 {
+    position: absolute;
+    top: 927px;
+    left: 22.5px;
+  }
+  .block__6 .container_block__6 .card6 {
+    width: 345px;
+    height: 208px;
+  }
+  .block__6 .container_block__6 .card6 .card6_background {
+    height: 100px;
+    position: absolute;
+    top: 47px;
+    right: 61px;
+  }
+  .block__6 .container_block__6 .card6 .card6_image_in_block__6 {
+    height: 50px;
+    position: absolute;
+    top: 22px;
+    left: 20px;
+  }
+  .block__6 .container_block__6 .card6 .card6_number_image_in_block__6 {
+    position: absolute;
+    top: 20px;
+    height: 45px;
+  }
+  .block__6 .container_block__6 .card6 .title_in_card6 {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    width: 271px;
+    height: 22px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #212529;
+  }
+  .block__6 .container_block__6 .card6 .paragraph_in_card6 {
+    position: absolute;
+    top: 122px;
+    left: 20px;
+    width: 305px;
+    height: 66px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    z-index: 2313;
+  }
+  .block__6 .container_block__6 .block_after_cards_in_block__6 {
+    position: absolute;
+    top: 1190px;
+    left: 22.5px;
+    width: 345px;
+    height: 224px;
+    background-image: url(./photos/background_in_after_block_adaptive.png);
+    background-repeat: no-repeat;
+    background-size: 345px;
+  }
+  .block__6 .container_block__6 #block_after_cards_in_block__6_id {
+    position: relative;
+  }
+  .block__6 .container_block__6 #block_after_cards_in_block__6_id .text_in_after_block {
+    position: absolute;
+    top: 50px;
+    left: 41px;
+    width: 272px;
+    height: 54px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .block__6 .container_block__6 #block_after_cards_in_block__6_id .call_us_btn {
+    position: absolute;
+    top: 134px;
+    left: 108px;
+    width: 137px;
+    height: 40px;
+    background: #ffffff;
+  }
+  .block__6 .container_block__6 #block_after_cards_in_block__6_id .call_us_btn .call_us_btn_text_content {
+    width: 100px;
+    text-align: center;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
   }
 }/*# sourceMappingURL=style.css.map */
