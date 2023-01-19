@@ -1939,7 +1939,7 @@ header .upper_nav .container_upper ul.dropdown-menu.show {
     line-height: 22px;
     z-index: 2313;
   }
-  .block__6 .block_after_cards_in_block__6 {
+  .block__6 .container_block__6 .block_after_cards_in_block__6 {
     position: absolute;
     top: 1190px;
     left: 22.5px;
@@ -1949,10 +1949,10 @@ header .upper_nav .container_upper ul.dropdown-menu.show {
     background-repeat: no-repeat;
     background-size: 345px;
   }
-  .block__6 #block_after_cards_in_block__6_id {
+  .block__6 .container_block__6 #block_after_cards_in_block__6_id {
     position: relative;
   }
-  .block__6 #block_after_cards_in_block__6_id .text_in_after_block {
+  .block__6 .container_block__6 #block_after_cards_in_block__6_id .text_in_after_block {
     position: absolute;
     top: 50px;
     left: 41px;
@@ -1966,7 +1966,7 @@ header .upper_nav .container_upper ul.dropdown-menu.show {
     text-align: center;
     color: #ffffff;
   }
-  .block__6 #block_after_cards_in_block__6_id .call_us_btn {
+  .block__6 .container_block__6 #block_after_cards_in_block__6_id .call_us_btn {
     position: absolute;
     top: 134px;
     left: 108px;
@@ -1974,7 +1974,7 @@ header .upper_nav .container_upper ul.dropdown-menu.show {
     height: 40px;
     background: #ffffff;
   }
-  .block__6 #block_after_cards_in_block__6_id .call_us_btn .call_us_btn_text_content {
+  .block__6 .container_block__6 #block_after_cards_in_block__6_id .call_us_btn .call_us_btn_text_content {
     width: 100px;
     text-align: center;
     font-family: "Nunito";
