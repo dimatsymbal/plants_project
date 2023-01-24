@@ -4,3 +4,146 @@
               <img class="small_picture_in_block__3" src="./photos/small_picture_in_block__3.png" alt="small_picture_in_block__3"> 
             </div>    
           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  <!-- <img src="./photos/block_8_pic1.png" alt="block_8_pic1">
+                  <!-- <p class="paragraph_in_slider_card">Lorem Ipsum is simply dummy text of the printing 
+                    and typesetting industry. Lorem Ipsum has been 
+                    the industry's standard dummy text ever since the 
+                    1500s, when an unknown printer took a galley of 
+                    type and scrambled it to make.</p>
+                    
+                    <h3 class="name_in_slider_card">Jane Smith</h3>
+
+                    <h6 class="work_in_slider_card">Manager</h6> --> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="false"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+
+
+
+
+
+
+
+
+    .carousel {
+      position: absolute;
+      height: 341px;
+      top: 301px;
+
+      .carousel-item {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+
+        .slider_card {
+          width: 690px;
+          height: 341px;
+          box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
+        }
+  
+        #slider_card_id1 {
+          background-color: #f24c4c;
+        }
+        #slider_card_id2 {
+          background-color: #ca0e0e;
+        }
+        #slider_card_id3 {
+          background-color: #197c7e;
+        }
+        #slider_card_id4 {
+          background-color: #d03ecd;
+        }
+      }
+
+      .carousel-control-prev {
+        position: absolute;
+        left: 1280px;
+        top: -100px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 13px;
+        gap: 10px;
+        width: 50px;
+        height: 50px;
+        border: 1px solid #00730c;
+        border-radius: 5px;
+
+        .carousel-control-prev-icon {
+          color: #00730c;
+          opacity: 1;
+        }
+      }
+
+      .carousel-control-next {
+        position: absolute;
+        right: 0px;
+        top: -100px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 13px;
+        gap: 10px;
+        width: 50px;
+        height: 50px;
+        border: 1px solid #00730c;
+        border-radius: 5px;
+
+        .carousel-control-next-icon {
+          color: #00730c;
+        }
+      }
+
+      .carousel-control-prev:hover {
+        background-color: #00730c;
+      }
+      .carousel-control-next:hover {
+        background-color: #00730c;
+      }
+    }
